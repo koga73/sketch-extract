@@ -1,0 +1,29 @@
+{
+  "name": "sketch-extract",
+  "version": "0.0.1",
+  "description": "Extract strings from sketch files",
+  "main": "sketch-extract.js",
+  "bin": {
+    "sketch-extract": "./bin/sketch-extract-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koga73/sketch-extract.git"
+  },
+  "keywords": [
+    "sketch",
+    "extract"
+  ],
+  "author": "AJ Savino <koga73@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/koga73/sketch-extract/issues"
+  },
+  "homepage": "https://github.com/koga73/sketch-extract#readme",
+  "dependencies": {
+    "node-stream-zip": "^1.11.2"
+  }
+}
