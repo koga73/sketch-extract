@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
-* sketch-extract v1.0.0 Copyright (c) 2020 AJ Savino
+* sketch-extract v1.0.1 Copyright (c) 2020 AJ Savino
 * https://github.com/koga73/sketch-extract
 * MIT License
 */
@@ -13,7 +13,7 @@ module.exports = (function(params){
 
 	const _consts = {
 		NAME:"Sketch Extract",
-		VERSION:"1.0.0",
+		VERSION:"1.0.1",
 
 		DEFAULT_OUTPUT_PATH:"./output/" //If not specified
 	};
@@ -101,7 +101,8 @@ module.exports = (function(params){
 				let pagesLen = pages.length;
 				for (let i = 0; i < pagesLen; i++){
 					let page = pages[i];
-					let filePath = _instance.outputPath + page.name + ".json";
+					let filePath = _instance.outputPath + page.name.replace(/[\/\\]/g, "-") + ".json";
+					console.log(filePath);
 
 					//Write JSON file per-page
 					console.log("WRITING FILE:", filePath);
