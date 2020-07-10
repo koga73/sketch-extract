@@ -1,6 +1,6 @@
 {
   "name": "sketch-extract",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Extract strings from sketch files",
   "main": "sketch-extract.js",
   "bin": {

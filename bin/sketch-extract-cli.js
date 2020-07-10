@@ -11,7 +11,7 @@ module.exports = (function(params){
 
 	const _consts = {
 		NAME:"Sketch Extract",
-		VERSION:"0.0.1",
+		VERSION:"1.0.0",
 
 		DEFAULT_OUTPUT_PATH:"./output/" //If not specified
 	};
