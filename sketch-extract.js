@@ -1,5 +1,8 @@
-//By: AJ Savino
-
+/*
+* sketch-extract v1.0.0 Copyright (c) 2020 AJ Savino
+* https://github.com/koga73/sketch-extract
+* MIT License
+*/
 const StreamZip = require("node-stream-zip");
 
 module.exports = function(params){
